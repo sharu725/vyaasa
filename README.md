@@ -1,5 +1,5 @@
 
-[**Demo:**](http://webjeda.com/vyaasa/)
+[**Demo**](http://webjeda.com/vyaasa/)
 
 # Features:
 Vyaasa is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well. 
