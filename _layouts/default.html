@@ -1,0 +1,27 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+   
+     <div class="wrapper">
+      {% include color-bar.html %}
+    {% include header.html %}
+   </div>
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+   <div class="wrapper">
+    {% include footer.html %}
+   </div>
+   {% if site.analytics %}
+   {% include analytics.html %}
+   {% endif %}
+  </body>
+</html>

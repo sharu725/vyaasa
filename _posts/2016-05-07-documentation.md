@@ -1,5 +1,10 @@
+---
+layout: post
+title: Documentation
+---
 
-[**Demo:**](http://webjeda.com/vyaasa/)
+* Do not remove this line (it will not be displayed) 
+{:toc}
 
 # Features:
 Vyaasa is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well. 
@@ -32,18 +37,18 @@ This process will host the theme as a **Project Page**. You can also download th
 
 The default theme will look like this
 
-![webjeda vyaasa jekyll theme](/images/vyaasa-jekyll-theme-1.png)
+![webjeda vyaasa jekyll theme]({{site.baseurl}}/images/vyaasa-jekyll-theme-1.png)
 
 
 
 A sample post would look like this
 
-![webjeda vyaasa jekyll theme sidebar](/images/vyaasa-jekyll-theme-2.png)
+![webjeda vyaasa jekyll theme sidebar]({{site.baseurl}}/images/vyaasa-jekyll-theme-2.png)
 
 
 This theme is made especially for smartphones.
 
-![webjeda vyaasa responsive jekyll theme](/images/vyaasa-responsive-jekyll-theme-1.png)
+![webjeda vyaasa responsive jekyll theme]({{site.baseurl}}/images/vyaasa-responsive-jekyll-theme-1.png)
 {: style="text-align:center"}
 
 # Development

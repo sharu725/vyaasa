@@ -1,0 +1,230 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
+    text-rendering: optimizeLegibility;
+       @include media-query($on-palm) {
+        font-size: 1em;
+    }
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1{
+    font-size: 2.5em;
+    @include media-query($on-laptop) {
+        font-size: 2em;
+    }
+}
+h2{
+    font-size: 1.6em;
+    @include media-query($on-laptop) {
+        font-size: 1.2em;
+    }
+}
+
+h3{
+    font-size: 1.2em;
+    @include media-query($on-laptop) {
+        font-size: 0.9em;
+    }
+}
+
+h4 {
+        font-size: 1em;
+    @include media-query($on-laptop) {
+        font-size: 0.8em;
+    }
+}
+
+h5{
+        font-size: 0.9em;
+    @include media-query($on-laptop) {
+        font-size: 0.7em;
+    }
+    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+    font-family: 'Alfa Slab One', cursive;
+    
+  
+}
+
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+   &:hover {
+        color: $comp-color;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    font-family: serif;
+    color: $grey-color;
+    border: 1px solid $grey-color-light;
+    border-left: 4px solid $brand-color;
+    padding-left: $spacing-unit / 2;
+    font-style: italic;
+    margin-left: 1em;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+
+.highlighter-rouge {
+    font-family: inherit;
+}
+
+pre,
+code {
+    border-radius: 3px;
+    border: 1px solid $brand-color;
+    text-shadow: 0 0 0.1px;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+    font-size: 0.8em;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+

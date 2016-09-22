@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "I'm Vyaasa"
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Vyaasa is a minimal Jekyll theme meant for writers. Long text posts will look good with this layout. This is a free theme and can be used for all kinds of Jekyll blogs.
+baseurl: "/vyaasa" # the subpath of your site, e.g. /blog
+url: "http://webjeda.com" # the base hostname & protocol for your site
+
+permalink: :title/
+
+# Build settings
+markdown: kramdown
+
+paginate: 5
+paginate_path: /page:num/
+
+
+# Tracker
+analytics: UA-83979019-1
+
+#comments
+disqus-shortname: webjeda-demo
+
+#CSS
+sass:
+  style: compressed
+
+
+include: [_pages]
+
+gems: [jekyll-paginate, jekyll-seo-tag]
