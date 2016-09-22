@@ -44,7 +44,7 @@ A sample post would look like this
 This theme is made especially for smartphones.
 
 ![webjeda vyaasa responsive jekyll theme](/images/vyaasa-responsive-jekyll-theme-1.png)
-{: style="text-align:center"}
+
 
 # Development
 Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
