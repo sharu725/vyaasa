@@ -19,7 +19,7 @@ permalink: :title/
 
 # Build settings
 markdown: kramdown
-
+highlight: rouge
 paginate: 5
 paginate_path: /page:num/
 
