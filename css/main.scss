@@ -45,6 +45,34 @@ $on-laptop:        800px;
     }
 }
 
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+label { 
+  -webkit-appearance: push-button;
+  -moz-appearance: button; 
+  display: inline-block;
+  margin: 60px 0 10px 0;
+  cursor: pointer;
+}
+
+/* Default State */
+.facebook {
+   background: #03C;
+   width: 400px;
+   height: 100px;
+   line-height: 100px;
+   color: white;
+   text-align: center;
+}
+
+/* Toggled State */
+input[type=checkbox]:checked ~ .facebook {
+   display: none;
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
