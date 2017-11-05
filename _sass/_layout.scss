@@ -174,3 +174,31 @@ table {
 .page-content {
     margin-top: 40px;
 }
+
+.player-div, .download {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px 12px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: "Source Serif Pro",serif;
+    color: #55556F;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.btn-mp3 {
+    background-color: #98c1d9;
+    border-color: #98c1d9;
+}
+
+.btn-ogg {
+    background-color: #a7d3a6;
+    border-color: #a7d3a6;
+}
