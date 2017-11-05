@@ -36,4 +36,4 @@ sass:
 
 include: [_pages]
 
-gems: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag]
