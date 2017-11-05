@@ -3,29 +3,6 @@ layout: page
 title: Pizzaiolos
 permalink: /pizzaiolos/
 ---
-<style>
-
-.row {
-    display: table;
-}
-
-.pizzaiolo-img {
-    width: 30%;
-    float: left;
-}
-
-.pizzaiolo-img>img {
-    border-radius: 50%;
-}
-
-.pizzaiolo-description {
-    width: 70%;
-    float: right;
-}
-.pizzaiolo-description>p {
-    padding: 15px;
-}
-</style>
 
 Conheça um pouco mais das vozes que você está escutando.
 
