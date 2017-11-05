@@ -7,8 +7,8 @@ title-font-size: '4em'
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Pizza de Dados podcast, um podcast onde pessoas comuns discutem ciência de dados
-baseurl: "/dedados"
-url: "http://jtemporal.com" # the base hostname & protocol for your site
+baseurl: "/"
+url: "http://podcast.datascience.pizza" # the base hostname & protocol for your site
 
 permalink: :title/
 
