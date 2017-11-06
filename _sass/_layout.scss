@@ -193,24 +193,35 @@ table {
     line-height: 1.6;
 }
 
-.btn-mp3 {
+.btn-mp3, .btn-twitter {
     background-color: #98c1d9;
     border-color: #98c1d9;
 }
 
-.btn-mp3:hover {
+.btn-mp3:hover, .btn-twitter:hover {
     color: #fff;
     background-color: #549BB3;
     border-color: #549BB3;
 }
 
-.btn-ogg {
+.btn-ogg, .btn-site {
     background-color: #a7d3a6;
     border-color: #a7d3a6;
 }
 
-.btn-ogg:hover {
+.btn-ogg:hover, .btn-site:hover {
     color: #fff;
     background-color: #81AD80;
     border-color: #81AD80;
+}
+
+.btn-github {
+    background-color: #F3DE8A;
+    border-color: #F3DE8A;
+}
+
+.btn-github:hover {
+    color: #fff;
+    background-color: #C9BA7D;
+    border-color: #C9BA7D;
 }
