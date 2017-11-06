@@ -41,12 +41,23 @@ Conheça um pouco mais das vozes que você está escutando.
 <div class="row">
   <h2>Gustavo Coelho</h2>
   <div class="pizzaiolo-img">
-  <img src="">
+  <img src="https://pbs.twimg.com/profile_images/927578792419356672/Xs18O64r_400x400.jpg">
   </div>
   <div class="pizzaiolo-description">
-    <p>Formado em economia, assumiu o papel de transformar o trabalho manual de um estatístico em algo robusto e automatizado usando Python e desde então tem aprimorado seus conhecimentos na área em busca de fazer algo sempre melhor.</p>
+    <p>Formado em economia, atualmente trabalha em consultoria de gestão pública e quer fazer ciência reprodutível usando Python e para isso tem aprimorado seus conhecimentos na área em busca de fazer algo sempre melhor. Seus sonho é aprender/aplicar Desenho de Mecanismos.</p>
   </div>
+</div>
+<div class="row social" style="width: 100%">
+  <a href="">
+    <button class="btn btn-twitter">Twitter</button>
+  </a>
+  <a href="">
+    <button class="btn btn-site">Site</button>
+  </a>
+  <a href="">
+    <button class="btn btn-github">GitHub</button>
+  </a>
 </div>
 <br>
 
-Esse grupo diverso estuda ciência de dados pelos mais diversos motivos.
+Esse grupo diverso estuda ciência de dados para salvar o mundo!
