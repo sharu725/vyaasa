@@ -34,9 +34,21 @@ Conheça um pouco mais das vozes que você está escutando.
   <img src="https://pbs.twimg.com/profile_images/927004212239765506/-uSPAJyo_400x400.jpg">
   </div>
   <div class="pizzaiolo-description">
-    <p>Informata biomédica começou analisando dados genônimicos na faculdade e flertou com processamento de linguagem natural e se destaca pela participação como mantenedora do projeto Operação Serenata de Amor e cientista de dados na Data Science Brigdade.</p>
+    <p>Informata Biomédica começou analisando dados genômicos e flertou com processamento de linguagem natural durante a faculdade. Hoje, se destaca pela participação como mantenedora do projeto Operação Serenata de Amor e cientista de dados na Data Science Brigade.</p>
   </div>
 </div>
+<div class="row social" style="width: 100%">
+  <a href="">
+    <button class="btn btn-twitter">Twitter</button>
+  </a>
+  <a href="">
+    <button class="btn btn-site">Site</button>
+  </a>
+  <a href="">
+    <button class="btn btn-github">GitHub</button>
+  </a>
+</div>
+
 <br>
 <div class="row">
   <h2>Gustavo Coelho</h2>
