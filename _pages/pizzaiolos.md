@@ -6,16 +6,27 @@ permalink: /pizzaiolos/
 
 Conheça um pouco mais das vozes que você está escutando.
 
-<br>
 <div class="row">
   <h2>Leticia Portella</h2>
   <div class="pizzaiolo-img">
     <img src="https://pbs.twimg.com/profile_images/917141735528189952/YL2gKqFJ_400x400.jpg">
   </div>
   <div class="pizzaiolo-description">
-    <p>Oceanógrafa por formação e desenvolvedora por vocação assumiu o chapéu de cientista de dados oficialmente ao começar a trabalhar na Softplan mas desde a faculdade vem analisando dados e criou o DataScience.Pizza o maior repositório com conteudo sobre ciência de dados em português.</p>
+    <p>Oceanógrafa por formação e desenvolvedora por vocação assumiu o chapéu de cientista de dados oficialmente ao começar a trabalhar na Softplan, mas desde a faculdade vem analisando dados e criou o DataScience.Pizza o maior repositório com conteúdo sobre ciência de dados em português.</p>
   </div>
 </div>
+<div class="row social" style="width: 100%">
+  <a href="">
+    <button class="btn btn-twitter">Twitter</button>
+  </a>
+  <a href="">
+    <button class="btn btn-site">Site</button>
+  </a>
+  <a href="">
+    <button class="btn btn-github">GitHub</button>
+  </a>
+</div>
+
 <br>
 <div class="row">
   <h2>Jessica Temporal</h2>
