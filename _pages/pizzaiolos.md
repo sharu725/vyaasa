@@ -38,13 +38,13 @@ Conheça um pouco mais das vozes que você está escutando.
   </div>
 </div>
 <div class="row social" style="width: 100%">
-  <a href="">
+  <a href="https://twitter.com/jesstemporal">
     <button class="btn btn-twitter">Twitter</button>
   </a>
-  <a href="">
+  <a href="http://jtemporal.com">
     <button class="btn btn-site">Site</button>
   </a>
-  <a href="">
+  <a href="https://github.com/jtemporal">
     <button class="btn btn-github">GitHub</button>
   </a>
 </div>
