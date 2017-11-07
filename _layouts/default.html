@@ -7,7 +7,10 @@ layout: compress
   {% include head.html %}
 
   <body>
-   
+   {% if site.analytics %}
+   {% include analytics-body.html %}
+   {% endif %}
+
      <div class="wrapper">
       {% include color-bar.html %}
     {% include header.html %}
@@ -20,8 +23,5 @@ layout: compress
    <div class="wrapper">
     {% include footer.html %}
    </div>
-   {% if site.analytics %}
-   {% include analytics.html %}
-   {% endif %}
   </body>
 </html>
