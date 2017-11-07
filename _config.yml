@@ -20,7 +20,7 @@ paginate_path: /page:num/
 
 
 # Tracker
-# analytics: UA-83979019-1
+analytics: UA-106178084-2 
 
 # Comments
 # disqus-shortname: webjeda-demo
