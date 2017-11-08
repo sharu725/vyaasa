@@ -3,28 +3,56 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
-      </item>
-    {% endfor %}
-  </channel>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<itunes:category text="Education"/>
+<itunes:category text="Business"/>
+<itunes:category text="Science &amp; Medicine"/>
+<itunes:category text="Technology"/>
+<itunes:category text="Category"/>
+<itunes:explicit>NO</itunes:explicit>
+<itunes:keywords>Data Science, Pizza de dados, dados, data, Data science pizza, python, DS</itunes:keywords>
+<itunes:summary> 3 apaixonados por ciência de dados que vivem discutindo assuntos, links e conselhos de carreira.</itunes:summary>
+<itunes:subtitle>Ciência dos dados</itunes:subtitle>
+<itunes:image href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Terning1.svg/2000px-Terning1.svg.png"/>
+<itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
+<webMaster>http://podcast.datascience.pizza/</webMaster>
+<copyright>Frase com direitos reservados do site</copyright>
+<language>pt-br</language>
+<title>Pizza de dados</title>
+<link>http://podcast.datascience.pizza/</link>
+<description>3 apaixonados por ciência de dados</description>
+<pubDate>Tue, 07 Nov 2017 00:08:00 -3000</pubDate>
+<itunes:owner>
+  <itunes:name>Pizza de dados</itunes:name>
+  <itunes:email>gustavosfcoelho@gmail.com</itunes:email>
+</itunes:owner>
+<image>
+  <title>Pizza de dados</title>
+  <link>https://commons.wikimedia.org</link>
+  <url>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Terning1.svg/2000px-Terning1.svg.png</url>
+</image>
+<item>
+<author>Pizza de dados</author>
+<title>Episódio 001: Hello World</title>
+  <description>O primeiro episódio do Pizza de Dados está no ar! Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</description>
+  <link>http://podcast.datascience.pizza/hello-world/</link>
+  <pubDate>Tue, 07 Nov 2017 00:08:00 -3000</pubDate>
+  <itunes:duration>00:31:10</itunes:duration>
+  <itunes:keywords>Data Science, Pizza de dados, dados, data, Data science pizza, python, DS</itunes:keywords>
+  <itunes:summary>Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</itunes:summary>
+  <itunes:subtitle>Filosofando sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</itunes:subtitle>
+  <itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
+  <itunes:explicit>NO</itunes:explicit>
+  <itunes:block>no</itunes:block>
+  <enclosure url="https://ia801506.us.archive.org/29/items/Episodio001HelloWorld/Epis%C3%B3dio%20001_%20Hello%20World.mp3" length="20400000" type="audio/mp3"/>
+</item>
+</channel>
 </rss>
