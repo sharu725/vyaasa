@@ -52,7 +52,7 @@ xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
       <itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
       <itunes:explicit>NO</itunes:explicit>
       <itunes:block>no</itunes:block>
-      <enclosure url="https://ia801506.us.archive.org/29/items/Episodio001HelloWorld/Episo%CC%81dio%20001_%20Hello%20World.mp3" length="21436236" type="audio/mpeg"/>
+      <enclosure url="https://ia801506.us.archive.org/29/items/Episodio001HelloWorld/Episo%CC%81dio%20001_%20Hello%20World.mp3" length="21436236" type="audio/mpeg">
     </item>
   </channel>
 </rss>
