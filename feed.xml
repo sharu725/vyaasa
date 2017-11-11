@@ -47,7 +47,8 @@ layout: null
             <itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
             <itunes:explicit>NO</itunes:explicit>
             <itunes:block>no</itunes:block>
-            <enclosure url="{{ post.mp3 }}" length="21436236" type="audio/mpeg"/>
+            <enclosure url="{{ post.mp3 }}"/>
         </item>
+        {% endfor %}
     </channel>
 </rss>
