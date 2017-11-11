@@ -32,13 +32,14 @@ layout: null
         <itunes:keywords>Data Science, Pizza de dados, dados, data, Data science pizza, python, DS</itunes:keywords>
         <webMaster>pizzadedados@gmail.com (Pizza de Dados)</webMaster>
         <pubDate>Tue, 07 Nov 2017 00:08:00 -3000</pubDate>
-        <item>
+        {% for post in site.posts %}
+          <item>
             <author>pizzadedados@gmail.com (Pizza de Dados)</author>
-            <title>Episódio 001: Hello World</title>
+            <title>{{ post.title | xml_escape }}</title>
             <description>O primeiro episódio do Pizza de Dados está no ar! Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</description>
-            <guid>http://podcast.datascience.pizza/hello-world/</guid>
-            <link>http://podcast.datascience.pizza/hello-world/</link>
-            <pubDate>Tue, 07 Nov 2017 00:08:00 -3000</pubDate>
+            <guid>{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+            <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <itunes:duration>00:31:10</itunes:duration>
             <itunes:keywords>Data Science, Pizza de dados, dados, data, Data science pizza, python, DS</itunes:keywords>
             <itunes:summary>Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</itunes:summary>
@@ -46,7 +47,7 @@ layout: null
             <itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
             <itunes:explicit>NO</itunes:explicit>
             <itunes:block>no</itunes:block>
-            <enclosure url="http://ia801506.us.archive.org/29/items/Episodio001HelloWorld/Episo%CC%81dio%20001_%20Hello%20World.mp3" length="21436236" type="audio/mpeg"/>
+            <enclosure url="{{ post.mp3 }}" length="21436236" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
