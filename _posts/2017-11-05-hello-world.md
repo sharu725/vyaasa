@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Episódio 001: Hello World"
-mp3: "https://archive.org/download/Episodio001HelloWorld/Episo%CC%81dio%20001_%20Hello%20World.mp3"
+mp3: "http://archive.org/download/Episodio001HelloWorld/Episo%CC%81dio%20001_%20Hello%20World.mp3"
 ---
 
 O primeiro episódio do Pizza de Dados está no ar! Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.
