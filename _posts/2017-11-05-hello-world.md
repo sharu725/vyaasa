@@ -41,7 +41,7 @@ Ou baixe para escutar mais tarde:
   </div>
   <div class="voz">
     <h3>Leticia Portella</h3>
-    <a href="">
+    <a href="https://twitter.com/leleportella">
       <button class="btn btn-twitter">Twitter</button>
     </a>
   </div>
