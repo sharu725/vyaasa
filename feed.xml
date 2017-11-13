@@ -6,48 +6,43 @@ layout: null
     xmlns:content="http://purl.org/rss/1.0/modules/content/"
     xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Pizza de Dados</title>
-        <link>http://podcast.datascience.pizza/</link>
-        <language>pt-br</language>
-        <itunes:subtitle>O podcast Brasileiro sobre ciência de dados.</itunes:subtitle>
-        <itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
-        <itunes:summary>3 apaixonados por ciência de dados que vivem discutindo assuntos, links e conselhos de carreira.</itunes:summary>
-        <description>O podcast Brasileiro sobre ciência de dados.</description>
+        <title>{{ site.title }}</title>
+        <link>{{ site.url }}</link>
+        <language>{{ site.lang }}</language>
+        <itunes:author>{{ site.author }}</itunes:author>
+        <description>{{ site.description }}</description>
         <itunes:owner>
-            <itunes:name>pizzadedados@gmail.com (Pizza de Dados)</itunes:name>
-            <itunes:email>pizzadedados@gmail.com</itunes:email>
+            <itunes:name>{{ site.email }} ({{ site.title }})</itunes:name>
+            <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
-        <itunes:image href="http://pbs.twimg.com/profile_images/929184390525091840/fv1Vipbf_400x400.jpg"/>
+        <itunes:image href="{{ site.image-url }}"/>
         <itunes:category text="Education"/>
         <itunes:category text="Science &amp; Medicine"/>
         <itunes:category text="Technology"/>
         <itunes:explicit>no</itunes:explicit>
         <image>
-            <title>Pizza de Dados</title>
-            <link>http://podcast.datascience.pizza/</link>
-            <url>http://pbs.twimg.com/profile_images/929184390525091840/fv1Vipbf_400x400.jpg</url>
+            <title>{{ site.title }}</title>
+            <link>{{ site.url }}</link>
+            <url>{{ site.image-url }}</url>
         </image>
-        <atom:link href="http://podcast.datascience.pizza/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
         <copyright>Frase com direitos reservados do site</copyright>
-        <itunes:keywords>Data Science, Pizza de dados, dados, data, Data science pizza, python, DS</itunes:keywords>
+        <itunes:keywords>Ciência de Dados, Data Science, Pizza de Dados, dados, data, Data Science Pizza, Python, DS, Machine Learning</itunes:keywords>
         <webMaster>pizzadedados@gmail.com (Pizza de Dados)</webMaster>
-        <pubDate>Tue, 07 Nov 2017 00:08:00 -3000</pubDate>
         {% for post in site.posts %}
-          <item>
-            <author>pizzadedados@gmail.com (Pizza de Dados)</author>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>O primeiro episódio do Pizza de Dados está no ar! Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</description>
-            <guid>{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-            <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <itunes:duration>00:31:10</itunes:duration>
-            <itunes:keywords>Data Science, Pizza de dados, dados, data, Data science pizza, python, DS</itunes:keywords>
-            <itunes:summary>Neste episódio, os 3 pizzaiolos originais filosofam sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</itunes:summary>
-            <itunes:subtitle>Filosofando sobre ciência de dados, carreira e porque fazer um podcast sobre o assunto.</itunes:subtitle>
-            <itunes:author>Leticia Portella, Jessica Temporal e Gustavo Coelho</itunes:author>
-            <itunes:explicit>NO</itunes:explicit>
-            <itunes:block>no</itunes:block>
-            <enclosure url="{{ post.mp3 }}"/>
+        <item>
+          <author>{{ site.email }} ({{ site.title }})</author>
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.description }}</description>
+          <guid>{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+          <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <itunes:duration>{{ post.duration }}</itunes:duration>
+          <itunes:keywords>{{ post.keywords }}</itunes:keywords>
+          <itunes:author>{{ site.author }}</itunes:author>
+          <itunes:explicit>NO</itunes:explicit>
+          <itunes:block>no</itunes:block>
+          <enclosure url="{{ post.mp3 }}"/>
         </item>
         {% endfor %}
     </channel>
