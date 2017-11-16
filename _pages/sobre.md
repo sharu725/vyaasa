@@ -14,3 +14,18 @@ Por ser algo feito de forma simples e leve por pessoas que normalmente se enfiam
 
 
 Esperamos que você se divirta, nos dê feedback e aprenda um pouquinho!
+
+
+<div class="row">
+  <a href="https://twitter.com/pizzadedados">
+    <button class="btn btn-twitter">Twitter</button>
+  </a>
+  
+  <a href="https://github.com/jtemporal/pizzadedados">
+    <button class="btn btn-site">Código Site</button>
+  </a>
+  
+  <a href="https://github.com/leportella/datascience-pizza">
+    <button class="btn btn-github">DataScience Pizza</button>
+  </a>
+</div>
