@@ -24,6 +24,45 @@ body {
     }
 }
 
+.row {
+    display: inline-block;
+}
+
+.social {
+    text-align: center;
+}
+
+.voz-img {
+    max-width: 25%;
+    float: left;
+}
+
+.voz, .voz-img {
+    margin: 1em;
+}
+
+.voz>h3 {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.pizzaiolo-img {
+    width: 30%;
+    float: left;
+}
+
+.pizzaiolo-img>img, .voz-img>img {
+    border-radius: 50%;
+}
+
+.pizzaiolo-description {
+    width: 70%;
+    float: right;
+}
+
+.pizzaiolo-description>p {
+    padding: 15px;
+}
 
 
 /**
