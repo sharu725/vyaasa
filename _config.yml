@@ -39,6 +39,6 @@ sass:
   style: compressed
 
 
-include: [_pages]
+include: [_pages, images/avatar.large.png]
 
 plugins: [jekyll-paginate, jekyll-seo-tag]
