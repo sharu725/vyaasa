@@ -22,7 +22,7 @@ paginate_path: /page:num/
 # feed
 description: O podcast Brasileiro sobre ciência de dados.
 author: Leticia Portella, Jessica Temporal e Gustavo Coelho
-image-url: http://pbs.twimg.com/profile_images/929184390525091840/fv1Vipbf_400x400.jpg
+image-url: http://podcast.datascience.pizza/images/avatar.large.png
 
 # Tracker
 analytics: UA-106178084-2 
