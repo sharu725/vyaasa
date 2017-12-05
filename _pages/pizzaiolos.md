@@ -63,7 +63,7 @@ Conheça um pouco mais das vozes que você está escutando.
   <a href="https://twitter.com/gusrabbit">
     <button class="btn btn-twitter">Twitter</button>
   </a>
-  <a href="https://github.com/GustavoSFCoelho">
+  <a href="https://github.com/gusrabbit">
     <button class="btn btn-github">GitHub</button>
   </a>
 </div>
