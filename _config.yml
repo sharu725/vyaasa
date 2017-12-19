@@ -1,14 +1,15 @@
-#Created by webjeda - http://webjeda.com
+# Created by webjeda - http://webjeda.com
 
 # Site settings
-title: "I'm Vyaasa"
-title-font-size: '4em' # a provision to adjust the size of your title. If it is too long then do resize to a smaller value. By default it will be 4em.
+title: "Pizza de Dados"
+title-font-size: '4em'
+lang: pt-br
 
-email: your-email@domain.com
+email: pizzadedados@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Vyaasa is a minimal Jekyll theme meant for writers. Long text posts will look good with this layout. This is a free theme and can be used for all kinds of Jekyll blogs.
-baseurl: "/vyaasa" # the subpath of your site, e.g. /blog
-url: "http://webjeda.com" # the base hostname & protocol for your site
+  Pizza de Dados podcast, um podcast onde pessoas comuns discutem ciência de dados
+baseurl: ""
+url: "http://podcast.datascience.pizza" # the base hostname & protocol for your site
 
 permalink: :title/
 
@@ -18,22 +19,26 @@ highlight: rouge
 paginate: 5
 paginate_path: /page:num/
 
+# feed
+description: O podcast Brasileiro sobre ciência de dados.
+author: Leticia Portella, Jessica Temporal e Gustavo Coelho
+image-url: http://podcast.datascience.pizza/images/avatar.large.png
 
 # Tracker
-analytics: UA-83979019-1
+analytics: UA-106178084-2 
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: pizzadedados
 
 # Contact form
 # Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
-api-token:   
+# api-token:
 
 #CSS
 sass:
   style: compressed
 
 
-include: [_pages]
+include: [_pages, images/avatar.large.png]
 
-gems: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag]
