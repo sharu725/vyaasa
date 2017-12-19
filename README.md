@@ -1,8 +1,15 @@
-Demo: [http://webjeda.com/vyaasa](http://webjeda.com/vyaasa)
+# Pizza de dados: o primeiro podcast Brasileiro sobre Ciência de Dados
 
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
+necessário ter [ruby](https://www.ruby-lang.org/en/) instalado e [bundler](http://bundler.io/):
 
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
+```console
+$ bundle install
+```
+
+Para servir localmente o site:
+```console
+$ bundle exec jekyll serve
+```
+
+## Tema do site:
+[Demo](http://webjeda.com/vyaasa)
