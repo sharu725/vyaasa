@@ -1,4 +1,4 @@
-Demo: [http://webjeda.com/vyaasa](http://webjeda.com/vyaasa)
+Demo: ([https://webjeda.com/vyaasa](https://vyaasa.webjeda.com))
 
 ## Installation
 * Fork the repository
