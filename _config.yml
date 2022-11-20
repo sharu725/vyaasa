@@ -19,7 +19,6 @@ highlight: rouge
 paginate: 5
 paginate_path: /page:num/
 
-
 # Tracker
 analytics: UA-83979019-1
 
